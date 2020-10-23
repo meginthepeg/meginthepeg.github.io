@@ -1,2 +1,2 @@
-# meginthepeg.github.io
+# megmakesmaps.github.io
 project space
