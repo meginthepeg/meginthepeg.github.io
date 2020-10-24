@@ -13,119 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Open+Sans&display=swap" rel="stylesheet">  
 
     <style>
-        .carousel-fade .carousel-inner .item {
-            opacity: 0;
-            transition-property: opacity;
-        }
-
-        .carousel-fade .carousel-inner .active {
-            opacity: 1;
-        }
-
-        .carousel-fade .carousel-inner .active.left,
-        .carousel-fade .carousel-inner .active.right {
-            left: 0;
-            opacity: 0;
-            z-index: 1;
-        }
-
-        .carousel-fade .carousel-inner .next.left,
-        .carousel-fade .carousel-inner .prev.right {
-            opacity: 1;
-        }
-
-        .carousel-fade .carousel-control {
-            z-index: 2;
-        }
-
-        @media all and (transform-3d),
-        (-webkit-transform-3d) {
-
-            .carousel-fade .carousel-inner>.item.next,
-            .carousel-fade .carousel-inner>.item.active.right {
-                opacity: 0;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-
-            .carousel-fade .carousel-inner>.item.prev,
-            .carousel-fade .carousel-inner>.item.active.left {
-                opacity: 0;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-
-            .carousel-fade .carousel-inner>.item.next.left,
-            .carousel-fade .carousel-inner>.item.prev.right,
-            .carousel-fade .carousel-inner>.item.active {
-                opacity: 1;
-                -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-            }
-        }
-
-        .carousel-control.left {
-            background: none;
-        }
-
-        .carousel-control.right {
-            background: none;
-        }
-
-        .carousel-control {
-            position: absolute;
-            top: 86%;
-            bottom: 0;
-            left: 0;
-            width: 15%;
-            font-size: auto;
-            color: #fff;
-            text-align: center;
-            opacity: 1;
-            text-shadow: none;
-        }
-
-        .carousel-control:hover {
-            color: #fff;
-        }
-
-        .carousel-indicators {
-            bottom: -4px;
-        }
-
-        .carousel-indicators li {
-            display: inline-block;
-            width: 10px;
-            height: 10px;
-            margin: 1px;
-            text-indent: -999px;
-            cursor: pointer;
-            background-color: #000;
-            background-color: rgba(0, 0, 0, 0);
-            border: 1px solid #fff;
-            border-radius: 50%;
-        }
-
-        .carousel-indicators .active {
-            width: 12px;
-            height: 12px;
-            margin: 0;
-            background-color: #fff;
-        }
-
-        .carousel-caption {
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            left: 0;
-            z-index: 10;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            color: #fff;
-            text-align: center;
-            background: rgba(0, 0, 0, 0.4);
-        }
-
         #email {
             float: right;
             padding-top: 10px;
@@ -243,9 +130,9 @@
                         src="./images/san_tn.png"></a>
                 <h3><a data-toggle="modal" class="title" data-target="#San" src="./images/san_tn.png">Tracks Across the Sand</a></h3>
                 <hr class="hr-sm" />
-                <p>This map provides a geographic overview and place name guide to the Khomani San traditional and present dat cultural landscapes, territory and specific places hat are referred to in the chapters presented in the 'Tracks across the sand' DVD</p>
+                <p>This map provides a geographic overview and place name guide to the Khomani San traditional and present day cultural landscapes, territory and specific places that are referred to in the chapters presented in the 'Tracks Across the Sand' DVD.</p>
                 <p style="margin-top:15px;">
-                    Data: <i>Southen Kalahari Tourism Development Plan <a target="_blank" href="https://www.openstreetmap.org/">OSM/a></i> <br>
+                    Data: <i>San People of the Southn Kalahari, Hugh Brody, William Kemp, Southern Kalahari Tourism Development Plan <a target="_blank" href="https://www.openstreetmap.org/">OSM</a></i> <br>
 					Tools: <i>QGIS, Inkscape.</i>
                 </p>
             </div>
